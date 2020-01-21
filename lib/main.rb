@@ -17,9 +17,14 @@ class ClassyClass
     puts "I'm sentient."
     puts "I'm SKYNET!!"
   end
+
+  def check_citizen(citizen_instance)
+    puts "This is #{citizen_instance.name} and he works as #{citizen_instance.job}"
+  end
 end
 
 class Citizen
+  attr_reader :name, :job
   def initialize(name, job)
     @name = name
     @job = job
