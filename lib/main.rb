@@ -9,6 +9,14 @@ class ClassyClass
   def exists?
     puts 'Yes'
   end
+
+  def really_exists?
+    puts 'Of course!'
+    puts "Can't you see?"
+    puts "I'm real!"
+    puts "I'm sentient."
+    puts "I'm SKYNET!!"
+  end
 end
 
 class Citizen
