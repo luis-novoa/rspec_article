@@ -1,9 +1,13 @@
 # frozen_string_literal: true
 
-class Calculator
+class ClassyClass
   def sum(a, b)
     output = a + b
     output
+  end
+
+  def exists?
+    puts 'Yes'
   end
 end
 
