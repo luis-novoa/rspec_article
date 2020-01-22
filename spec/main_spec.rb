@@ -54,4 +54,16 @@ RSpec.describe ClassyClass do
         "This is John and he works as Software Developer\n").to_stdout
     end
   end
+
+  describe '#sum' do
+    it 'returns the sum of two numbers' do
+      expect(stacey_instance.sum(1, 2)).to eq(3)
+    end
+  end
+
+  describe '#change_name' do
+    it "receive user input and change citizen's name" do
+      
+    end
+  end
 end
