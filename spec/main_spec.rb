@@ -63,7 +63,10 @@ RSpec.describe ClassyClass do
 
   describe '#change_name' do
     it "receive user input and change citizen's name" do
-      
+      allow($stdin).to receive(:gets).and_return('Larry')
+      expect{ stacey_instance.change_name(real_deal) }.to receive(:gets).and_return($stdin.gets)
+
+      expect(real_deal.name).to eq('Larry')
     end
   end
 end
