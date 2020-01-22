@@ -41,6 +41,14 @@ RSpec.describe ClassyClass do
         "This is John and he works as Software Developer\n").to_stdout
     end
 
+    it "tells double_trouble's specific name and job using expect" do
+      expect(double_trouble).to receive(:name).and_return('John')
+      expect(double_trouble).to receive(:job).and_return('Software Developer')
+
+      expect{ stacey_instance.check_citizen(double_trouble) }.to output(
+        "This is John and he works as Software Developer\n").to_stdout
+    end
+
     it "tells real_deal's specific name and job" do
       expect{ stacey_instance.check_citizen(real_deal) }.to output(
         "This is John and he works as Software Developer\n").to_stdout
