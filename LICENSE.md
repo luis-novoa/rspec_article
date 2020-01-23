@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2019 Roodz Fernando Fleurant and Luis Bolívar Rodrigo Matte Novoa
+Copyright (c) 2019 Luis Bolívar Rodrigo Matte Novoa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
