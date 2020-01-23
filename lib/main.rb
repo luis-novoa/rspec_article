@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
 class ClassyClass
-
-
   def exists?
     puts 'Yes'
   end
@@ -32,8 +30,8 @@ class Citizen
     @job = job
   end
 
-  def sum(a, b)
-    output = a + b
+  def sum(num1, num2)
+    output = num1 + num2
     output
   end
 end
