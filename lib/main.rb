@@ -1,10 +1,7 @@
 # frozen_string_literal: true
 
 class ClassyClass
-  def sum(a, b)
-    output = a + b
-    output
-  end
+
 
   def exists?
     puts 'Yes'
@@ -33,5 +30,10 @@ class Citizen
   def initialize(name, job)
     @name = name
     @job = job
+  end
+
+  def sum(a, b)
+    output = a + b
+    output
   end
 end

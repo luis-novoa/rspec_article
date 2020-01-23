@@ -56,11 +56,9 @@ RSpec.describe ClassyClass do
     end
   end
 
-  describe '#sum' do
-    it 'returns the sum of two numbers' do
-      expect(stacey_instance.sum(1, 2)).to eq(3)
-    end
-  end
+  # describe '#sum' do
+    
+  # end
 
   describe '#change_name' do
     let(:input) {StringIO.new('Larry')}
@@ -70,6 +68,16 @@ RSpec.describe ClassyClass do
       expect{ stacey_instance.change_name(new_deal) }.to output("What's the new name of the citizen?\n").to_stdout.and change { new_deal.name }.to('Larry')
 
       $stdin = STDIN
+    end
+  end
+end
+
+RSpec.describe Citizen do
+  describe '#sum' do
+    let(:accountant) { Citizen.new('James', 'Accountant') }
+
+    it 'returns the sum of two numbers' do
+      expect(accountant.sum(1, 2)).to eq(3)
     end
   end
 end
