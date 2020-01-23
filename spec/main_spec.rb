@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require File.expand_path('../lib/main', __dir__)
+require 'stringio'
 
 RSpec.describe ClassyClass do
   let(:stacey_instance) { described_class.new }
@@ -62,11 +63,13 @@ RSpec.describe ClassyClass do
   end
 
   describe '#change_name' do
+    let(:input) {StringIO.new('Larry')}
+    let(:new_deal) { Citizen.new('Mark', 'Banker') }
     it "receive user input and change citizen's name" do
-      allow($stdin).to receive(:gets).and_return('Larry')
-      expect{ stacey_instance.change_name(real_deal) }.to receive(:gets).and_return($stdin.gets)
+      $stdin = input
+      expect{ stacey_instance.change_name(new_deal) }.to output("What's the new name of the citizen?\n").to_stdout.and change { new_deal.name }.to('Larry')
 
-      expect(real_deal.name).to eq('Larry')
+      $stdin = STDIN
     end
   end
 end

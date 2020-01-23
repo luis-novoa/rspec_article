@@ -23,7 +23,7 @@ class ClassyClass
   end
 
   def change_name(citizen_instance)
-    puts "What's the name of the new citizen?"
+    puts "What's the new name of the citizen?"
     citizen_instance.name = gets.chomp
   end
 end
