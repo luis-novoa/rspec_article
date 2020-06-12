@@ -1,5 +1,5 @@
 # RSpec Article
-In this repository, you find the coding examples showcased in the article ["RSpec: from the basic to testing user input"](https://hackernoon.com/how-to-use-rspec-from-basics-to-testing-user-input-i03k36m3). [Click here to access the file with all the examples!](/spec/main_spec.rb)
+In this repository, you find the coding examples showcased in the article ["RSpec: from the basic to testing user input"](https://hackernoon.com/how-to-use-rspec-from-basics-to-testing-user-input-i03k36m3). They can be found on [this file.](/spec/main_spec.rb)
 
 # Getting a Copy and Contributing
 This project is open for anyone who wants to clone it and create their version. If you just want the files and don't want to make further changes, follow the steps below to get a copy in your computer:
