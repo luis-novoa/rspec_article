@@ -1,5 +1,5 @@
 # RSpec Article
-In this repository, you find the coding examples showcased in the article ["RSpec: from the basic to testing user input"](https://hackernoon.com/how-to-use-rspec-from-basics-to-testing-user-input-i03k36m3).
+In this repository, you find the coding examples showcased in the article ["RSpec: from the basic to testing user input"](https://hackernoon.com/how-to-use-rspec-from-basics-to-testing-user-input-i03k36m3). They can be found on [this file.](/spec/main_spec.rb)
 
 # Getting a Copy and Contributing
 This project is open for anyone who wants to clone it and create their version. If you just want the files and don't want to make further changes, follow the steps below to get a copy in your computer:
@@ -38,9 +38,14 @@ If you have contributions to make, send me a message telling me about your ideas
 - [VSCode](https://code.visualstudio.com/) to edit the code.
 - [Stickler CI](https://stickler-ci.com) to ensure a standard on code style and as additional check for errors.
 
-# Authors
+# Author
 
-- [Luis Novoa](https://github.com/luis-novoa)
+👤 **Luis Novoa**
+
+- GitHub: [luis-novoa](https://github.com/luis-novoa)
+- Twitter: [@LuisMatteNovoa](https://twitter.com/LuisMatteNovoa)
+- Linkedin: [Luis Novoa](https://www.linkedin.com/in/luismattenovoa/)
+- Email: [luis.matte.novoa@gmail.com](mailto:luis.matte.novoa@gmail.com])
 
 # Show your support
 Give a :star: if you like this project!
